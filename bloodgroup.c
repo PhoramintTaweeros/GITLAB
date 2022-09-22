@@ -6,7 +6,7 @@ void main()
   do
   {
     printf("Hello!!\n");
-    printf("What is your Name? ");
+    printf("What is your father Name? ");
     scanf("%s", Name);
     do
     {
@@ -40,7 +40,7 @@ void main()
     else
     {
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
-      printf("  But Sad! You can receive blood only from: O\n");
+      printf("  But Sad! You can receive blood only from: O Don't cry babe!\n");
     }
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);

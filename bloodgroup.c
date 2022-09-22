@@ -5,6 +5,7 @@ void main()
   int i;
   do
   {
+    printf("...................\n");
     printf("Hello!!\n");
     printf("What is your Name? ");
     scanf("%s", Name);
@@ -46,4 +47,5 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
+    printf(".............\n");
 }
